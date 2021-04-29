@@ -6,7 +6,12 @@ module.exports = {
 	],
 	purge: {
 		content: [
+			"./src/**/*.html",
 			
+			"./src/**/*.svelte",
+			
+			"./pages/**/*.js",
+			"./components/**/*.js"
 		],
 		layers: [
 			"utilities"
