@@ -1,0 +1,124 @@
+:root {
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(0, 0%, 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: var(--f-step-0);
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.65;
+	max-width: 65ch;
+}
+
+small,
+label {
+	display: inline-block;
+	font-size: var(--f-step--1);
+}
+
+ul {
+	list-style: none;
+}
+
+button,
+input,
+select {
+	margin: 0;
+}
+
+img,
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+iframe {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+/* Theme Rules */
+
+/* Base Rules */
+
+/* Layout Rules */
+
+/* Module Rules */
+
+/* State Rules */
+
+.is-removed {
+	display: none;
+}
+
+.is-sr-only {
+	position: absolute;
+	top: auto;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	width: 1px;
+	height: 1px;
+	white-space: nowrap;
+	padding: 0;
+	margin: -1px;
+	border: 0;
+}
